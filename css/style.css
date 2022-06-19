@@ -3,10 +3,17 @@
     flex-direction: column;
 }
 
-.slide1 {
+.IntroduceSlideShow .ImageGroup img {
     height: 100vh;
     width: 100%;
-    background-color: red;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ImageGroup {
+    height: 100vh;
+    width: 100%;
 }
 
 .slide2 {
