@@ -3,46 +3,8 @@
     flex-direction: column;
 }
 
-.IntroduceSlideShow .ImageGroup img {
+img {
     height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.ImageGroup a {
-    position: absolute;
-}
-
-.ImageGroup a:nth-of-type(1) {
-    animation-name: fader;
-    animation-delay: 1s;
-    animation-duration: 1s;
-    z-index: 20;
-}
-
-.ImageGroup a:nth-of-type(2) {
-    z-index: 10;
-}
-
-.ImageGroup a:nth-of-type(n+3) {
-    display: none;
-}
-
-@keyframes fader {
-    from {
-        opacity: 1.0;
-    }
-
-    to {
-        opacity: 0.0;
-    }
-}
-
-.ImageGroup {
-    height: 100vh;
-    width: 100%;
 }
 
 .slide2 {

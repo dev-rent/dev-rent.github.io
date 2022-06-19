@@ -17,19 +17,21 @@
     <div class="main_viewer">
         <header></header>
         <main>
-            <div class="IntroduceSlideShow">
-                <div class="title">
-                    협업과 실전프로젝트를 통해
-                    '성장'하는 동아리
-                </div>
-                <div class="ImageGroup">
-                    <a><img src="./asset/img/Introduce/SlideShow/background1.jpg"></a>
-                    <a><img src="./asset/img/Introduce/SlideShow/background2.jpg"></a>
-                    <a><img src="./asset/img/Introduce/SlideShow/background3.jpg"></a>
-                    <a><img src="./asset/img/Introduce/SlideShow/background4.jpg"></a>
+            <div id="IntroduceSlideShow" class="carousel slide carousel-fade h-100" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./asset/img/Introduce/SlideShow/background1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./asset/img/Introduce/SlideShow/background2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./asset/img/Introduce/SlideShow/background3.jpg" class="d-block w-100" alt="...">
+                    </div>
                 </div>
             </div>
-            <div class="IntroduceMember"></div>
+            <div class="IntroduceMember">
+            </div>
             <div class="IntroduceProject"></div>
             <div class="IntroduceCourse"></div>
         </main>
