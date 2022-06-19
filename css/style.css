@@ -1,0 +1,29 @@
+.main_viewer {
+    display: flex;
+    flex-direction: column;
+}
+
+.slide1 {
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+}
+
+.slide2 {
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+}
+
+.slide3 {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.slide4 {
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+}
+
