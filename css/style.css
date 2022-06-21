@@ -1,0 +1,23 @@
+.main_viewer {
+    display: flex;
+    flex-direction: column;
+}
+
+#IntroduceSlideShow img {
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+#IntroduceCourse {
+    margin: 5vh 0px 0px 0px;
+}
+
+#IntroduceCourse .title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#IntroduceCourse .subtitle {
+    font-size: 18px;
+}
