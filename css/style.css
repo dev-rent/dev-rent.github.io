@@ -21,3 +21,20 @@
 #IntroduceCourse .subtitle {
     font-size: 18px;
 }
+
+
+header > nav {
+    margin: 0px 313px 0px 313px;
+}
+
+.dump {
+    width: 100%;
+}
+
+.tester {
+    z-index: 9999;
+    width: 1280px;
+    height: 10px;
+    background-color: red;
+    margin: auto;
+}
