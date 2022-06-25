@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'nanum';
-  src: url('../fonts/NanumGothicExtraBold.ttf') format('truetype');
+  src: url('../fonts/NanumGothicExtraBold.otf') format('truetype');
 }
 
 body {
@@ -520,3 +520,16 @@ a:hover {
 .page1 {
   height: 100vh;
   width: 100%; }
+
+.page1 .title {
+  margin-top: 320px;
+  font-size: 52px;
+  font-family: "nanum";
+  font-weight: 900;
+  color: #000833;
+}
+
+.page1 .subtitle {
+  font-size: 23px;
+  color: #838383;
+}
